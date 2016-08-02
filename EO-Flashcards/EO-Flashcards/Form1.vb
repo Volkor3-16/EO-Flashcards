@@ -4,8 +4,12 @@
 
 Public Class frmMain
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
-        frmMenu.Show()
-        Me.Close()
-        ' Opens Main Menu and closes frmMain when clicked.
+        If txtUsername.Text = My.Settings.GuestAccount Then
+            frmMenu.Show()
+            Me.Close()
+        Else
+            MsgBox("Invalid Username")
+            txtUsername.Focus()
+        End If
     End Sub
 End Class
