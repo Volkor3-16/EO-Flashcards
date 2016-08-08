@@ -24,7 +24,7 @@ Partial Class frmAdminLogin
     Private Sub InitializeComponent()
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.btnLogin = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblAdminPassword = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'txtPassword
@@ -44,22 +44,22 @@ Partial Class frmAdminLogin
         Me.btnLogin.Text = "Login"
         Me.btnLogin.UseVisualStyleBackColor = True
         '
-        'Label1
+        'lblAdminPassword
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Label1.Location = New System.Drawing.Point(13, 9)
-        Me.Label1.Name = "lblAdminPassword"
-        Me.Label1.Size = New System.Drawing.Size(127, 20)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Admin Password"
+        Me.lblAdminPassword.AutoSize = True
+        Me.lblAdminPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.lblAdminPassword.Location = New System.Drawing.Point(13, 9)
+        Me.lblAdminPassword.Name = "lblAdminPassword"
+        Me.lblAdminPassword.Size = New System.Drawing.Size(127, 20)
+        Me.lblAdminPassword.TabIndex = 2
+        Me.lblAdminPassword.Text = "Admin Password"
         '
         'frmAdminLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(239, 105)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblAdminPassword)
         Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.txtPassword)
         Me.Name = "frmAdminLogin"
@@ -71,5 +71,5 @@ Partial Class frmAdminLogin
 
     Friend WithEvents txtPassword As TextBox
     Friend WithEvents btnLogin As Button
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblAdminPassword As Label
 End Class
