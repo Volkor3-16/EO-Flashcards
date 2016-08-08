@@ -6,7 +6,6 @@
 Public Class frmMenu
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
         frmAdminLogin.Show()
-        frmAdmin.Close()
         ' Opens Admin new Form for admin login, as the previous method (inputbox) couldn't have a password mask.
     End Sub
 End Class
