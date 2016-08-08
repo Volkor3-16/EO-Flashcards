@@ -1,6 +1,7 @@
 ﻿' Esperanto Flash Cards
 ' Author - AConsolePeasant
 ' Last modified - Check on the git page, I shouldn't have to update this for you.
+' https://github.com/AConsolePeasant/EO-Flashcards
 
 Public Class frmMain
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
