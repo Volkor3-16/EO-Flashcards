@@ -207,7 +207,7 @@ Partial Class frmMenu
         Me.Controls.Add(Me.Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmMenu"
-        Me.Text = "Esperanto Flash Cards - Main Menu"
+        Me.Text = " "
         Me.ResumeLayout(False)
 
     End Sub
