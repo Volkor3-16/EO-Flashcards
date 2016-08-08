@@ -23,10 +23,8 @@ Partial Class frmAdmin
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.btnWipe = New System.Windows.Forms.Button()
-        Me.btnDelUser = New System.Windows.Forms.Button()
         Me.btnAdminPassword = New System.Windows.Forms.Button()
         Me.btnClearUser = New System.Windows.Forms.Button()
-        Me.btnNewUser = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnWipe
@@ -40,18 +38,9 @@ Partial Class frmAdmin
         Me.btnWipe.Text = "Clear Database (CLEARS ALL DATA)"
         Me.btnWipe.UseVisualStyleBackColor = True
         '
-        'btnDelUser
-        '
-        Me.btnDelUser.Location = New System.Drawing.Point(93, 12)
-        Me.btnDelUser.Name = "btnDelUser"
-        Me.btnDelUser.Size = New System.Drawing.Size(75, 75)
-        Me.btnDelUser.TabIndex = 9
-        Me.btnDelUser.Text = "Delete User"
-        Me.btnDelUser.UseVisualStyleBackColor = True
-        '
         'btnAdminPassword
         '
-        Me.btnAdminPassword.Location = New System.Drawing.Point(174, 12)
+        Me.btnAdminPassword.Location = New System.Drawing.Point(12, 12)
         Me.btnAdminPassword.Name = "btnAdminPassword"
         Me.btnAdminPassword.Size = New System.Drawing.Size(75, 75)
         Me.btnAdminPassword.TabIndex = 10
@@ -60,31 +49,20 @@ Partial Class frmAdmin
         '
         'btnClearUser
         '
-        Me.btnClearUser.Location = New System.Drawing.Point(255, 12)
+        Me.btnClearUser.Location = New System.Drawing.Point(177, 12)
         Me.btnClearUser.Name = "btnClearUser"
         Me.btnClearUser.Size = New System.Drawing.Size(75, 75)
         Me.btnClearUser.TabIndex = 11
         Me.btnClearUser.Text = "Clear User Stats"
         Me.btnClearUser.UseVisualStyleBackColor = True
         '
-        'btnNewUser
-        '
-        Me.btnNewUser.Location = New System.Drawing.Point(12, 12)
-        Me.btnNewUser.Name = "btnNewUser"
-        Me.btnNewUser.Size = New System.Drawing.Size(75, 75)
-        Me.btnNewUser.TabIndex = 12
-        Me.btnNewUser.Text = "Add new User"
-        Me.btnNewUser.UseVisualStyleBackColor = True
-        '
         'frmAdmin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(423, 269)
-        Me.Controls.Add(Me.btnNewUser)
+        Me.ClientSize = New System.Drawing.Size(423, 108)
         Me.Controls.Add(Me.btnClearUser)
         Me.Controls.Add(Me.btnAdminPassword)
-        Me.Controls.Add(Me.btnDelUser)
         Me.Controls.Add(Me.btnWipe)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmAdmin"
@@ -94,8 +72,6 @@ Partial Class frmAdmin
     End Sub
 
     Friend WithEvents btnWipe As Button
-    Friend WithEvents btnDelUser As Button
     Friend WithEvents btnAdminPassword As Button
     Friend WithEvents btnClearUser As Button
-    Friend WithEvents btnNewUser As Button
 End Class
