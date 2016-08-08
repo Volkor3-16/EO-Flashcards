@@ -88,6 +88,12 @@
     <Compile Include="frmAdmin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmAdminLogin.Designer.vb">
+      <DependentUpon>frmAdminLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmMenu.Designer.vb">
       <DependentUpon>frmMenu.vb</DependentUpon>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAdmin.resx">
       <DependentUpon>frmAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminLogin.resx">
+      <DependentUpon>frmAdminLogin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.vb</DependentUpon>

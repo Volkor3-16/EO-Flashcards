@@ -7,5 +7,4 @@ Public Class frmMain
         frmMenu.Show() 'Open main menu
         Me.Close() 'Close myself
     End Sub
-
 End Class
