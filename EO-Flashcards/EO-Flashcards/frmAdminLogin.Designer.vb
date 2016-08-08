@@ -49,7 +49,7 @@ Partial Class frmAdminLogin
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label1.Location = New System.Drawing.Point(13, 9)
-        Me.Label1.Name = "Label1"
+        Me.Label1.Name = "lblAdminPassword"
         Me.Label1.Size = New System.Drawing.Size(127, 20)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Admin Password"
