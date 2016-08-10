@@ -7,7 +7,7 @@ Public Class frmAdminLogin
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         If txtPassword.Text = My.Settings.AdminPassword Then
             frmAdmin.Show()
-            Me.Close()
+            Me.Close() 'Simple login.
         Else
             MsgBox("Invalid Admin Password")
         End If
