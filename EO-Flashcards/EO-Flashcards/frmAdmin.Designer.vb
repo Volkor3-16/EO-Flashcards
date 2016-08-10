@@ -64,7 +64,7 @@ Partial Class frmAdmin
         Me.Controls.Add(Me.btnClearUser)
         Me.Controls.Add(Me.btnAdminPassword)
         Me.Controls.Add(Me.btnWipe)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "frmAdmin"
         Me.Text = "Esperanto Flash Cards - Admin Menu"
         Me.ResumeLayout(False)

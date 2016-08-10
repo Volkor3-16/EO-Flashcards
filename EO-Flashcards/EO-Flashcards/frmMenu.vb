@@ -4,8 +4,12 @@
 ' https://github.com/AConsolePeasant/EO-Flashcards
 
 Public Class frmMenu
-    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+    Private Sub btnAdminLogin_Click(sender As Object, e As EventArgs) Handles btnAdminLogin.Click
         frmAdminLogin.Show()
         ' Opens Admin new Form for admin login, as the previous method (inputbox) couldn't have a password mask.
+    End Sub
+
+    Private Sub btnArcade_Click(sender As Object, e As EventArgs) Handles btnArcade.Click
+        frmArcade.Show()
     End Sub
 End Class

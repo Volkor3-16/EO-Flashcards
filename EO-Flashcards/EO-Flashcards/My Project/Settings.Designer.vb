@@ -65,30 +65,6 @@ Namespace My
                 Me("AdminPassword") = value
             End Set
         End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("guest")>  _
-        Public Property GuestAccount() As String
-            Get
-                Return CType(Me("GuestAccount"),String)
-            End Get
-            Set
-                Me("GuestAccount") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public Property Setting() As String
-            Get
-                Return CType(Me("Setting"),String)
-            End Get
-            Set
-                Me("Setting") = value
-            End Set
-        End Property
     End Class
 End Namespace
 

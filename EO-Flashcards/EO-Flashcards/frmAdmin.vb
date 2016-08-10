@@ -10,6 +10,6 @@ Public Class frmAdmin
     End Sub
 
     Private Sub frmAdmin_Closing(sender As Object, e As EventArgs) Handles MyBase.FormClosed
-        frmMenu.Show() 'When being closed, open main menu instead of exiting program.
+        frmMenu.Show()
     End Sub
 End Class

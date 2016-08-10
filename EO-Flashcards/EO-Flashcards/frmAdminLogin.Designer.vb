@@ -62,6 +62,7 @@ Partial Class frmAdminLogin
         Me.Controls.Add(Me.lblAdminPassword)
         Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.txtPassword)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "frmAdminLogin"
         Me.Text = "frmAdminLogin"
         Me.ResumeLayout(False)

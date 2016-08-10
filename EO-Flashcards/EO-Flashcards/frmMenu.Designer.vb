@@ -22,66 +22,66 @@ Partial Class frmMenu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
+        Me.btnAdvancement = New System.Windows.Forms.Button()
+        Me.btnTimeTrial = New System.Windows.Forms.Button()
+        Me.btnArcade = New System.Windows.Forms.Button()
+        Me.btnAdminLogin = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnAdvancement
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 12)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(112, 75)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Advancement Gamemode"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnAdvancement.Location = New System.Drawing.Point(12, 12)
+        Me.btnAdvancement.Name = "btnAdvancement"
+        Me.btnAdvancement.Size = New System.Drawing.Size(112, 75)
+        Me.btnAdvancement.TabIndex = 0
+        Me.btnAdvancement.Text = "Advancement Gamemode"
+        Me.btnAdvancement.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnTimeTrial
         '
-        Me.Button2.Location = New System.Drawing.Point(130, 12)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 75)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Time Trial Gamemode"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnTimeTrial.Location = New System.Drawing.Point(130, 12)
+        Me.btnTimeTrial.Name = "btnTimeTrial"
+        Me.btnTimeTrial.Size = New System.Drawing.Size(75, 75)
+        Me.btnTimeTrial.TabIndex = 1
+        Me.btnTimeTrial.Text = "Time Trial Gamemode"
+        Me.btnTimeTrial.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnArcade
         '
-        Me.Button3.Location = New System.Drawing.Point(211, 12)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(119, 75)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Arcade (Random) Gamemode"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnArcade.Location = New System.Drawing.Point(211, 12)
+        Me.btnArcade.Name = "btnArcade"
+        Me.btnArcade.Size = New System.Drawing.Size(119, 75)
+        Me.btnArcade.TabIndex = 2
+        Me.btnArcade.Text = "Arcade (Random) Gamemode"
+        Me.btnArcade.UseVisualStyleBackColor = True
         '
-        'Button9
+        'btnAdminLogin
         '
-        Me.Button9.Location = New System.Drawing.Point(130, 93)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(75, 75)
-        Me.Button9.TabIndex = 15
-        Me.Button9.Text = "Admin Login (Requires Admin Pass)"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.btnAdminLogin.Location = New System.Drawing.Point(130, 93)
+        Me.btnAdminLogin.Name = "btnAdminLogin"
+        Me.btnAdminLogin.Size = New System.Drawing.Size(75, 75)
+        Me.btnAdminLogin.TabIndex = 15
+        Me.btnAdminLogin.Text = "Admin Login (Requires Admin Pass)"
+        Me.btnAdminLogin.UseVisualStyleBackColor = True
         '
         'frmMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(340, 176)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Controls.Add(Me.btnAdminLogin)
+        Me.Controls.Add(Me.btnArcade)
+        Me.Controls.Add(Me.btnTimeTrial)
+        Me.Controls.Add(Me.btnAdvancement)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "frmMenu"
         Me.Text = " Main Menu"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button9 As Button
+    Friend WithEvents btnAdvancement As Button
+    Friend WithEvents btnTimeTrial As Button
+    Friend WithEvents btnArcade As Button
+    Friend WithEvents btnAdminLogin As Button
 End Class

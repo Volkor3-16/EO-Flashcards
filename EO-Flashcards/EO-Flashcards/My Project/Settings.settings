@@ -5,11 +5,5 @@
     <Setting Name="AdminPassword" Type="System.String" Scope="User">
       <Value Profile="(Default)">milk</Value>
     </Setting>
-    <Setting Name="GuestAccount" Type="System.String" Scope="User">
-      <Value Profile="(Default)">guest</Value>
-    </Setting>
-    <Setting Name="Setting" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
   </Settings>
 </SettingsFile>

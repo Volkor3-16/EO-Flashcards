@@ -56,7 +56,7 @@ Partial Class frmMain
         Me.ClientSize = New System.Drawing.Size(381, 146)
         Me.Controls.Add(Me.lblUsername)
         Me.Controls.Add(Me.btnLogin)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "frmMain"
         Me.Text = "Esperanto Flash Cards"
         Me.ResumeLayout(False)
