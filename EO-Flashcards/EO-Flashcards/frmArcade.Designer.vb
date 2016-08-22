@@ -25,6 +25,9 @@ Partial Class frmArcade
         Me.txtEsperanto = New System.Windows.Forms.TextBox()
         Me.txtTranslated = New System.Windows.Forms.TextBox()
         Me.lblLineNumber = New System.Windows.Forms.Label()
+        Me.lblTextCorrect = New System.Windows.Forms.Label()
+        Me.lblCorrect = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'txtEsperanto
@@ -49,17 +52,47 @@ Partial Class frmArcade
         'lblLineNumber
         '
         Me.lblLineNumber.AutoSize = True
-        Me.lblLineNumber.Location = New System.Drawing.Point(412, 169)
+        Me.lblLineNumber.Location = New System.Drawing.Point(415, 169)
         Me.lblLineNumber.Name = "lblLineNumber"
         Me.lblLineNumber.Size = New System.Drawing.Size(35, 13)
         Me.lblLineNumber.TabIndex = 4
         Me.lblLineNumber.Text = "####"
+        '
+        'lblTextCorrect
+        '
+        Me.lblTextCorrect.AutoSize = True
+        Me.lblTextCorrect.Location = New System.Drawing.Point(584, 182)
+        Me.lblTextCorrect.Name = "lblTextCorrect"
+        Me.lblTextCorrect.Size = New System.Drawing.Size(87, 13)
+        Me.lblTextCorrect.TabIndex = 5
+        Me.lblTextCorrect.Text = "Correct Answers:"
+        '
+        'lblCorrect
+        '
+        Me.lblCorrect.AutoSize = True
+        Me.lblCorrect.Location = New System.Drawing.Point(677, 182)
+        Me.lblCorrect.Name = "lblCorrect"
+        Me.lblCorrect.Size = New System.Drawing.Size(13, 13)
+        Me.lblCorrect.TabIndex = 6
+        Me.lblCorrect.Text = "0"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(12, 182)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(398, 13)
+        Me.Label1.TabIndex = 7
+        Me.Label1.Text = "Warning: Make sure to type in ALL LOWERCASE, if not, your answer will be wrong"
         '
         'frmArcade
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(867, 247)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblCorrect)
+        Me.Controls.Add(Me.lblTextCorrect)
         Me.Controls.Add(Me.lblLineNumber)
         Me.Controls.Add(Me.txtTranslated)
         Me.Controls.Add(Me.txtEsperanto)
@@ -73,4 +106,7 @@ Partial Class frmArcade
     Friend WithEvents txtEsperanto As TextBox
     Friend WithEvents txtTranslated As TextBox
     Friend WithEvents lblLineNumber As Label
+    Friend WithEvents lblTextCorrect As Label
+    Friend WithEvents lblCorrect As Label
+    Friend WithEvents Label1 As Label
 End Class
