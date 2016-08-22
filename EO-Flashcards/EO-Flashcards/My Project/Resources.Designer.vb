@@ -61,7 +61,18 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ﻿# ESPDIC (Esperanto – English Dictionary) – 2 August 2015 - Paul Denisowski (www.denisowski.org)
+        '''  Looks up a localized string similar to atom bomb, atomic bomb, A-bomb.
+        '''</summary>
+        Friend ReadOnly Property english() As String
+            Get
+                Return ResourceManager.GetString("english", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to ﻿a-bombo : atom bomb, atomic bomb, A-bomb
+        '''a-vorto : adjective
+        '''a.K. : antaŭ Kristo (B.C. – before Christ)
         '''Aarono : Aaron
         '''Abadono : Abaddon (biblical, a compartment of Gehenna)
         '''abaĵuro : lampshade
@@ -75,11 +86,20 @@ Namespace My.Resources
         '''Abaso : Abbas
         '''abata : abbatial
         '''abata jurisdikcio : abbacy
-        '''abateco : abbacy, abbotshi [rest of string was truncated]&quot;;.
+        '''abateco : abbacy, [rest of string was truncated]&quot;;.
         '''</summary>
         Friend ReadOnly Property espdic() As String
             Get
                 Return ResourceManager.GetString("espdic", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to a-bombo.
+        '''</summary>
+        Friend ReadOnly Property esperanto() As String
+            Get
+                Return ResourceManager.GetString("esperanto", resourceCulture)
             End Get
         End Property
     End Module
