@@ -5,5 +5,11 @@
     <Setting Name="AdminPassword" Type="System.String" Scope="User">
       <Value Profile="(Default)">milk</Value>
     </Setting>
+    <Setting Name="TotalCorrect" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="TotalIncorrect" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

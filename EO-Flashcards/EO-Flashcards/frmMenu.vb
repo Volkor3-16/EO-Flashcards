@@ -12,4 +12,8 @@ Public Class frmMenu
     Private Sub btnArcade_Click(sender As Object, e As EventArgs) Handles btnArcade.Click
         frmArcade.Show()
     End Sub
+
+    Private Sub btnStats_Click(sender As Object, e As EventArgs) Handles btnStats.Click
+        frmStats.Show()
+    End Sub
 End Class

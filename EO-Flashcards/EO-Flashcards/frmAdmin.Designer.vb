@@ -29,6 +29,7 @@ Partial Class frmAdmin
         '
         'btnWipe
         '
+        Me.btnWipe.Enabled = False
         Me.btnWipe.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnWipe.ForeColor = System.Drawing.Color.Red
         Me.btnWipe.Location = New System.Drawing.Point(336, 12)

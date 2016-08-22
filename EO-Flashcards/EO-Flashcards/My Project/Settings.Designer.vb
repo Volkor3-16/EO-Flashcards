@@ -65,6 +65,30 @@ Namespace My
                 Me("AdminPassword") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property TotalCorrect() As Integer
+            Get
+                Return CType(Me("TotalCorrect"),Integer)
+            End Get
+            Set
+                Me("TotalCorrect") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property TotalIncorrect() As Integer
+            Get
+                Return CType(Me("TotalIncorrect"),Integer)
+            End Get
+            Set
+                Me("TotalIncorrect") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

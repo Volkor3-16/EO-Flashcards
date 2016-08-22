@@ -26,6 +26,7 @@ Partial Class frmMenu
         Me.btnTimeTrial = New System.Windows.Forms.Button()
         Me.btnArcade = New System.Windows.Forms.Button()
         Me.btnAdminLogin = New System.Windows.Forms.Button()
+        Me.btnStats = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnAdvancement
@@ -59,18 +60,28 @@ Partial Class frmMenu
         '
         'btnAdminLogin
         '
-        Me.btnAdminLogin.Location = New System.Drawing.Point(130, 93)
+        Me.btnAdminLogin.Location = New System.Drawing.Point(211, 89)
         Me.btnAdminLogin.Name = "btnAdminLogin"
-        Me.btnAdminLogin.Size = New System.Drawing.Size(75, 75)
+        Me.btnAdminLogin.Size = New System.Drawing.Size(117, 75)
         Me.btnAdminLogin.TabIndex = 15
-        Me.btnAdminLogin.Text = "Admin Login (Requires Admin Pass)"
+        Me.btnAdminLogin.Text = "Admin Login (Requires Admin Pass, Defaullt = milk)"
         Me.btnAdminLogin.UseVisualStyleBackColor = True
+        '
+        'btnStats
+        '
+        Me.btnStats.Location = New System.Drawing.Point(12, 89)
+        Me.btnStats.Name = "btnStats"
+        Me.btnStats.Size = New System.Drawing.Size(193, 75)
+        Me.btnStats.TabIndex = 16
+        Me.btnStats.Text = "View User Statistics"
+        Me.btnStats.UseVisualStyleBackColor = True
         '
         'frmMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(340, 176)
+        Me.Controls.Add(Me.btnStats)
         Me.Controls.Add(Me.btnAdminLogin)
         Me.Controls.Add(Me.btnArcade)
         Me.Controls.Add(Me.btnTimeTrial)
@@ -86,4 +97,5 @@ Partial Class frmMenu
     Friend WithEvents btnTimeTrial As Button
     Friend WithEvents btnArcade As Button
     Friend WithEvents btnAdminLogin As Button
+    Friend WithEvents btnStats As Button
 End Class

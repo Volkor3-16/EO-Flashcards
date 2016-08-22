@@ -12,4 +12,9 @@ Public Class frmAdmin
     Private Sub frmAdmin_Closing(sender As Object, e As EventArgs) Handles MyBase.FormClosed
         frmMenu.Show()
     End Sub
+
+    Private Sub btnClearUser_Click(sender As Object, e As EventArgs) Handles btnClearUser.Click
+        My.Settings.TotalCorrect = 0
+        My.Settings.TotalIncorrect = 0
+    End Sub
 End Class

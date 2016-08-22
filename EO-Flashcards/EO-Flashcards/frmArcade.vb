@@ -20,6 +20,7 @@ Public Class frmArcade
     Public Sub Arcade_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtTranslated.KeyPress
         If e.KeyChar = ChrW(Keys.Enter) Then 'When enter pressed
             If LCase(english(lblLineNumber.Text() + 1)).Contains(txtTranslated.Text) Then 'Thanks to some fancy googling and tip top help form stackoverflow, we can know use parital answers.
+                My.Settings.TotalCorrect += 1
                 MsgBox("Correct") ' That above line allows for us to sometimes accidentally allow users to enter one letter, it looks impossible without rewriting a lot of it too fix.
                 score += 1 'add one to score
                 lblCorrect.Text = score
@@ -29,6 +30,7 @@ Public Class frmArcade
                 txtTranslated.Clear()
                 'If correct, find a new random number for comparison again.
             Else
+                My.Settings.TotalIncorrect += 1
                 Dim skip = MsgBox("Incorrect, Would you like to skip?", MsgBoxStyle.YesNo)
                 If skip = MsgBoxResult.Yes Then
                     Dim randomword As Integer = CInt(Int((63425 * Rnd())))
