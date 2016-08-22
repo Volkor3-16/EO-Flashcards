@@ -61,11 +61,38 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to atom bomb, atomic bomb, A-bomb.
+        '''  Looks up a localized string similar to atom bomb, atomic bomb, A-bomb
+        '''adjective
+        '''antaŭ Kristo (B.C. – before Christ)
+        '''Aaron
+        '''Abaddon (biblical, a compartment of Gehenna)
+        '''lampshade
+        '''abacus, ball frame, counting frame, calculating frame, chart
+        '''abacterial
+        '''abactio
+        '''to relinquish
+        '''fear of abandonment
+        '''abandonment, relinquishment
+        '''Abbasid
+        '''Abbas
+        '''abbatial
+        '''abbacy
+        '''abbacy, abbotship
+        '''abbatial
+        '''abbey
+        '''abbatial
+        '''abbatial
+        '''abbey
+        '''abbess
+        '''barricade of trees or branches, abatis
+        '''abbacy
+        '''abbé, abbot
+        '''abasic, abatic
+        '''abasia (inability to walk caused by lack of muscular coordination [rest of string was truncated]&quot;;.
         '''</summary>
-        Friend ReadOnly Property english() As String
+        Friend ReadOnly Property engout() As String
             Get
-                Return ResourceManager.GetString("english", resourceCulture)
+                Return ResourceManager.GetString("engout", resourceCulture)
             End Get
         End Property
         
@@ -95,11 +122,68 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to a-bombo.
+        '''  Looks up a localized string similar to a-bombo
+        '''a-vorto
+        '''a.K.
+        '''Aarono
+        '''Abadono
+        '''abaĵuro
+        '''abako
+        '''abakteria
+        '''abaktio
+        '''abandoni
+        '''abandonismo
+        '''abandono
+        '''abasido
+        '''Abaso
+        '''abata
+        '''abata jurisdikcio
+        '''abateco
+        '''abateja
+        '''abatejo
+        '''abatina
+        '''abatineja
+        '''abatinejo
+        '''abatino
+        '''abatiso
+        '''abatlando
+        '''abato
+        '''abazia
+        '''abazio
+        '''abceso
+        '''abderano
+        '''abdika
+        '''abdikado
+        '''abdikanto
+        '''abdikebla
+        '''abdiki
+        '''abdiko
+        '''abdomena
+        '''abdomeno
+        '''abdukcia
+        '''abdukcia muskolo
+        '''abdukcii
+        '''abdukcio
+        '''abduktado
+        '''abdukti
+        '''abdukto
+        '''abduktoro
+        '''Abdulo
+        '''abeke
+        '''abela
+        '''abela kolonio
+        '''abela kriterio
+        '''abela ofrio
+        '''Abelardo
+        '''abelaro
+        '''abelbredado
+        '''abelbredisto
+        '''abelbredo
+        '''ab [rest of string was truncated]&quot;;.
         '''</summary>
-        Friend ReadOnly Property esperanto() As String
+        Friend ReadOnly Property espout() As String
             Get
-                Return ResourceManager.GetString("esperanto", resourceCulture)
+                Return ResourceManager.GetString("espout", resourceCulture)
             End Get
         End Property
     End Module

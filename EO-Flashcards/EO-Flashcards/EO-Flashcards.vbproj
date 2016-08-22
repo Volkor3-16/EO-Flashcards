@@ -163,10 +163,8 @@
     <None Include="Resources\espdic.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\english.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\esperanto.txt" />
+    <Content Include="Resources\engout.txt" />
+    <Content Include="Resources\espout.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
