@@ -30,6 +30,7 @@ Partial Class frmMenu
         '
         'btnAdvancement
         '
+        Me.btnAdvancement.Enabled = False
         Me.btnAdvancement.Location = New System.Drawing.Point(12, 12)
         Me.btnAdvancement.Name = "btnAdvancement"
         Me.btnAdvancement.Size = New System.Drawing.Size(112, 75)
@@ -39,6 +40,7 @@ Partial Class frmMenu
         '
         'btnTimeTrial
         '
+        Me.btnTimeTrial.Enabled = False
         Me.btnTimeTrial.Location = New System.Drawing.Point(130, 12)
         Me.btnTimeTrial.Name = "btnTimeTrial"
         Me.btnTimeTrial.Size = New System.Drawing.Size(75, 75)

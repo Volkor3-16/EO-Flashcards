@@ -52,38 +52,42 @@ Partial Class frmArcade
         'lblLineNumber
         '
         Me.lblLineNumber.AutoSize = True
+        Me.lblLineNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblLineNumber.Location = New System.Drawing.Point(415, 169)
         Me.lblLineNumber.Name = "lblLineNumber"
-        Me.lblLineNumber.Size = New System.Drawing.Size(35, 13)
+        Me.lblLineNumber.Size = New System.Drawing.Size(45, 20)
         Me.lblLineNumber.TabIndex = 4
         Me.lblLineNumber.Text = "####"
         '
         'lblTextCorrect
         '
         Me.lblTextCorrect.AutoSize = True
-        Me.lblTextCorrect.Location = New System.Drawing.Point(584, 182)
+        Me.lblTextCorrect.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTextCorrect.Location = New System.Drawing.Point(617, 169)
         Me.lblTextCorrect.Name = "lblTextCorrect"
-        Me.lblTextCorrect.Size = New System.Drawing.Size(87, 13)
+        Me.lblTextCorrect.Size = New System.Drawing.Size(130, 20)
         Me.lblTextCorrect.TabIndex = 5
         Me.lblTextCorrect.Text = "Correct Answers:"
         '
         'lblCorrect
         '
         Me.lblCorrect.AutoSize = True
-        Me.lblCorrect.Location = New System.Drawing.Point(677, 182)
+        Me.lblCorrect.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCorrect.Location = New System.Drawing.Point(753, 169)
         Me.lblCorrect.Name = "lblCorrect"
-        Me.lblCorrect.Size = New System.Drawing.Size(13, 13)
+        Me.lblCorrect.Size = New System.Drawing.Size(19, 20)
         Me.lblCorrect.TabIndex = 6
         Me.lblCorrect.Text = "0"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 182)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(12, 169)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(398, 13)
+        Me.Label1.Size = New System.Drawing.Size(342, 20)
         Me.Label1.TabIndex = 7
-        Me.Label1.Text = "Warning: Make sure to type in ALL LOWERCASE, if not, your answer will be wrong"
+        Me.Label1.Text = "Type in lowercase, otherwise it won't work"
         '
         'frmArcade
         '
