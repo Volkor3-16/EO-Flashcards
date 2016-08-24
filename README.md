@@ -12,4 +12,4 @@ This Program is licensed under THE BEER-WARE LICENSE.
 
 https://msdn.microsoft.com/en-us/library/a77w6kkx.aspx
 
-\#linuxmasterrace @ snoonet.org
+\#linuxmasterrace @ snoonet.org (More specifically, iownall555, from linuxmasterrace who made the python script to seperate the english and esperanto)
