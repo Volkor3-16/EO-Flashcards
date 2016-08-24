@@ -27,16 +27,20 @@ Public Class frmArcade
                 Dim randomword As Integer = CInt(Int((63425 * Rnd()))) 'get new random word
                 lblLineNumber.Text = randomword 'for debugging and somewhat cheaty reasons
                 txtEsperanto.Text = esperanto(randomword + 1) 'need the +1 so it's not offset
-                txtTranslated.Clear()
+                'txtTranslated.Clear() 'Doesn't work, no idea why.
                 'If correct, find a new random number for comparison again.
             Else
                 My.Settings.TotalIncorrect += 1
                 Dim skip = MsgBox("Incorrect, Would you like to skip?", MsgBoxStyle.YesNo)
                 If skip = MsgBoxResult.Yes Then
+                    MsgBox("The correct answer was: " + english(lblLineNumber.Text))
                     Dim randomword As Integer = CInt(Int((63425 * Rnd())))
                     lblLineNumber.Text = randomword
                     txtEsperanto.Text = esperanto(randomword + 1)
                     txtTranslated.Clear()
+                    'If skip = MsgBoxResult.No Then
+                    '    txtTranslated.Clear() 'Doesn't work, no idea why.
+                    'End If
                     'if incorrect, ask if they want to skip the word, and continue on with it.
                 End If
             End If
