@@ -13,3 +13,10 @@ This Program is licensed under THE BEER-WARE LICENSE.
 https://msdn.microsoft.com/en-us/library/a77w6kkx.aspx
 
 \#linuxmasterrace @ snoonet.org (More specifically, iownall555, from linuxmasterrace who made the python script to seperate the english and esperanto)
+
+## Installation
+The program is built for .Net Framework 4.5.2, you'll probably need that to run.
+
+Download the latest release from the [releases section](https://github.com/AConsolePeasant/EO-Flashcards/releases)
+
+Then extract the zip file to your desktop, and run setup.exe. This will install and automatically open the program. You will be able to run the program from your start menu.
