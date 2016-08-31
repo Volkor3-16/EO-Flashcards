@@ -4,11 +4,9 @@
 ' https://github.com/AConsolePeasant/EO-Flashcards
 
 Public Class frmArcade
-    ' Loading each file into their own arrays
-    'Dim english As String() = My.Resources.engout 'This causes errors because My.Resource.engout is compiled into the executable, and doesn't allow being imported back into a string.
-    Dim english As String() = System.IO.File.ReadAllLines("C:\Users\ACP\Documents\GitHub\EO-Flashcards\EO-Flashcards\EO-Flashcards\Resources\engout.txt")
-    Dim esperanto As String() = System.IO.File.ReadAllLines("C:\Users\ACP\Documents\GitHub\EO-Flashcards\EO-Flashcards\EO-Flashcards\Resources\espout.txt")
-    ' I know this doesn't work on more than one computer, but If I use My.Resources It would error out.
+    Dim english As String() = System.IO.File.ReadAllLines(My.Application.Info.DirectoryPath + "\Resources\engout.txt")
+    Dim esperanto As String() = System.IO.File.ReadAllLines(My.Application.Info.DirectoryPath + "\Resources\espout.txt")
+    'Read all lines in the relative directory.
     Dim score As Integer = 0
     Public Sub frmArcade_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Randomize()
